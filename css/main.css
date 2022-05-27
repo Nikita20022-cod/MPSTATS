@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('../fonts/SFCompactDisplay-Regular.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/SFCompactDisplay-Regular.woff') format('woff'), /* IE6-IE8 */
+        url('../fonts/SFCompactDisplay-Regular.woff2') format('woff2'); /* Pretty Modern Browsers */
+        font-weight: 400;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('../fonts/SFCompactDisplay-Medium.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/SFCompactDisplay-Medium.woff') format('woff'), /* IE6-IE8 */
+        url('../fonts/SFCompactDisplay-Medium.woff2') format('woff2'); /* Pretty Modern Browsers */
+        font-weight: 500;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('../fonts/SFCompactDisplay-Semibold.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/SFCompactDisplay-Semibold.woff') format('woff'), /* IE6-IE8 */
+        url('../fonts/SFCompactDisplay-Semibold.woff2') format('woff2'); /* Pretty Modern Browsers */
+        font-weight: 600;
+        font-style: normal;
+}
+
+/*--------------------Спецификация----------------------*/
+
+body {
+    font-family: 'SF Compact Display', sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+div, p, form, input, a, span, button {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Compact Display', sans-serif !important;
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+a, button, input {
+    transition: all 0.5s ease;
+    border: 0;
+}
+
+input, input:hover, input:focus, input:active, button, button:hover, button:focus, button:active {
+    outline: none;
+}
